@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vubiquity.Test.Data\Vubiquity.Test.Data.csproj" />
+    <ProjectReference Include="..\Vubiquity.Test.Domain\Vubiquity.Test.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
